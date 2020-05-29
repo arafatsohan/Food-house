@@ -1,0 +1,264 @@
+.mb_auto {
+  margin-bottom: auto; }
+
+.margin-top {
+  margin-top: 30px; }
+
+.margin-bottom {
+  margin-bottom: 30px;
+  color: #e74c3c; }
+
+.margin-both {
+  margin: 30px 0;
+  color: #e74c3c;
+  text-transform: uppercase; }
+
+.text-center {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 35px; }
+
+.color-white {
+  color: #fff; }
+
+.line-space {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 45px; }
+
+.color-secndary {
+  color: #555; }
+
+.rounded {
+  border-radius: 4px; }
+
+.color-primary {
+  color: #e74c3c; }
+
+.brand {
+  font-family: 'Caveat', cursive;
+  color: #e74c3c;
+  font-size: 36px; }
+
+.list-inline {
+  display: flex;
+  list-style: none; }
+  .list-inline li {
+    margin-right: 20px; }
+
+.valin_wraper {
+  text-align: center; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.social_icon {
+  list-style: none;
+  display: flex; }
+  .social_icon li {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e74c3c;
+    border-radius: 50%;
+    transition: 0.4s all; }
+    .social_icon li:hover {
+      background: #fff;
+      color: #e74c3c; }
+
+.food_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 50%;
+  transition: 0.4s all; }
+  .food_icons:hover {
+    background: #bdc3c7;
+    color: #e74c3c; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2 {
+  margin-bottom: 70px; }
+
+h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000; }
+
+.food_about {
+  padding: 80px 0; }
+
+.food_header {
+  width: 100%;
+  height: 600px;
+  background: url("../img/header.png");
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); }
+
+.site_heading {
+  font-family: 'Caveat', cursive;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold; }
+
+.site_subheading {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 6px; }
+
+.food-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #444; }
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .nav-bar ul {
+    margin-bottom: 0rem;
+    list-style: none; }
+    .nav-bar ul li {
+      display: inline-block; }
+    .nav-bar ul a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      padding: 10px; }
+      .nav-bar ul a.active {
+        color: #e74c3c; }
+
+.food_offer {
+  width: 100%;
+  height: 500px;
+  background: url("../img/offer.png");
+  color: #fff;
+  text-align: center; }
+  .food_offer_heading {
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase; }
+  .food_offer_subheading {
+    font-weight: 300;
+    letter-spacing: 5px; }
+
+.offer_botton {
+  color: #e74c3c;
+  background: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 27px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.4s all; }
+  .offer_botton:hover {
+    background: #e74c3c;
+    color: #fff;
+    text-decoration: none; }
+
+.food_testimonial {
+  width: 100%;
+  height: 500px;
+  background: url("../img/testimonial.png"); }
+
+.testimonials {
+  width: 800px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 70px 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2); }
+  .testimonials p {
+    color: #444;
+    line-height: 40px; }
+  .testimonials h5 {
+    color: #e74c3c;
+    font-weight: 400;
+    font-size: 20px; }
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px; }
+  figure img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2); }
+  figure .back {
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    width: 100%;
+    height: 100%;
+    background-color: #e74c3c;
+    z-index: -1; }
+
+.menu {
+  list-style: none; }
+  .menu_item {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    line-height: 50px; }
+  .menu_price {
+    color: #e74c3c; }
+
+.food_footer {
+  padding: 80px 0;
+  background: #222;
+  color: #fff; }
+
+.social_icon {
+  list-style: none;
+  display: flex; }
+  .social_icon li {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e74c3c;
+    border-radius: 50%;
+    transition: 0.4s all; }
+    .social_icon li:hover {
+      background: #fff;
+      color: #e74c3c; }
+
+.food_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */

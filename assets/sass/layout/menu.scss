@@ -1,0 +1,18 @@
+
+.menu{
+	list-style: none;
+	
+	&_item{
+		display: flex;
+		justify-content: space-between;
+		color: #000;
+		line-height: 50px;
+
+	}
+
+		&_price{
+			color: $primary-color;
+		}
+}
+
+
